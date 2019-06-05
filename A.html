@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		img{
+			width: 100px;
+			position: absolute;
+			display:none;
+			
+		}
+	</style>
+</head>
+<body>
+	<div style="background-image: url(game.png); height: 1000px; background-size: 100% 100%;">
+			<button class="sunbtn" style="color: red; font-weight: bold; position: absolute; ">PLANT</button>
+		<!--цветы 1 ряд-->
+		<img class="plant" src="sunflower.png"  style=" margin-left: 33%; margin-top: 13%;">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 33%; margin-top: 19%;">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 33%; margin-top: 25%;">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 33%; margin-top: 31%;">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 33%; margin-top: 37%;">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 33%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 33%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 33%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 33%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 33%; margin-top: 41%; ">PLANT</button>
+
+		<!--цветы 2 ряд-->
+		<img class="plant" src="sunflower.png"  style=" margin-left: 40%; margin-top: 13%; ">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 40%; margin-top: 19%; ">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 40%; margin-top: 25%; ">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 40%; margin-top: 31%; ">
+		<img class="plant" src="sunflower.png"  style=" margin-left: 40%; margin-top: 37%; ">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 40%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 40%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 40%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 40%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 40%; margin-top: 41%; ">PLANT</button>
+		<!--цветы корень из 9 ряд-->
+		<img class="plant" src="peashooter.png"  style=" margin-left: 47%; margin-top: 13%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 47%; margin-top: 19%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 47%; margin-top: 25%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 47%; margin-top: 31%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 47%; margin-top: 37%; ">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 47%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 47%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 47%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 47%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 47%; margin-top: 41%; ">PLANT</button>
+		<!--цветы предыдущий ряд + 1 ряд-->
+		<img class="plant" src="peashooter.png"  style=" margin-left: 54%; margin-top: 13%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 54%; margin-top: 19%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 54%; margin-top: 25%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 54%; margin-top: 31%; ">
+		<img class="plant" src="peashooter.png"  style=" margin-left: 54%; margin-top: 37%; ">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 54%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 54%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 54%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 54%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 54%; margin-top: 41%; ">PLANT</button>
+		<!--цветы хз ряд-->
+		<img class="plant" src="berry.png"  style=" margin-left: 61%; margin-top: 13%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 61%; margin-top: 19%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 61%; margin-top: 25%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 61%; margin-top: 31%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 61%; margin-top: 37%; ">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 61%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 61%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 61%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 61%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 61%; margin-top: 41%; ">PLANT</button>
+		<!--цветы 2^3 - 2 ряд-->
+		<img class="plant" src="berry.png"  style=" margin-left: 68%; margin-top: 13%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 68%; margin-top: 19%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 68%; margin-top: 25%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 68%; margin-top: 31%; ">
+		<img class="plant" src="berry.png"  style=" margin-left: 68%; margin-top: 37%; ">
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 68%; margin-top: 17%; ">PLANT</button>	
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 68%; margin-top: 23%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 68%; margin-top: 29%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute;  margin-left: 68%; margin-top: 35%; ">PLANT</button>
+		<button class="button" style="color: red; font-weight: bold; position: absolute; margin-left: 68%; margin-top: 41%; ">PLANT</button>
+
+
+		
+	</div>
+
+<script>
+	let plant = document.querySelectorAll('.plant')
+	let button = document.querySelectorAll('.button')
+
+	button[0].onclick = function(){
+		plant[0].style.display = 'block';
+		button[0].style.display = 'none';
+	}
+	button[1].onclick = function(){
+		plant[1].style.display = 'block';
+		button[1].style.display = 'none';
+	}
+	button[2].onclick = function(){
+		plant[2].style.display = 'block';
+		button[2].style.display = 'none';
+	}
+	button[3].onclick = function(){
+		plant[3].style.display = 'block';
+		button[3].style.display = 'none';
+	}
+	button[4].onclick = function(){
+		plant[4].style.display = 'block';
+		button[4].style.display = 'none';
+	}
+	button[5].onclick = function(){
+		plant[5].style.display = 'block';
+		button[5].style.display = 'none';
+	}
+	button[6].onclick = function(){
+		plant[6].style.display = 'block';
+		button[6].style.display = 'none';
+	}
+	button[7].onclick = function(){
+		plant[7].style.display = 'block';
+		button[7].style.display = 'none';
+	}
+	button[8].onclick = function(){
+		plant[8].style.display = 'block';
+		button[8].style.display = 'none';
+	}
+	button[9].onclick = function(){
+		plant[9].style.display = 'block';
+		button[9].style.display = 'none';
+	}
+	button[10].onclick = function(){
+		plant[10].style.display = 'block';
+		button[10].style.display = 'none';
+	}
+	button[11].onclick = function(){
+		plant[11].style.display = 'block';
+		button[11].style.display = 'none';
+	}
+	button[12].onclick = function(){
+		plant[12].style.display = 'block';
+		button[12].style.display = 'none';
+	}
+	button[13].onclick = function(){
+		plant[13].style.display = 'block';
+		button[13].style.display = 'none';
+	}
+	button[14].onclick = function(){
+		plant[14].style.display = 'block';
+		button[14].style.display = 'none';
+	}
+	button[15].onclick = function(){
+		plant[15].style.display = 'block';
+		button[15].style.display = 'none';
+	}
+	button[16].onclick = function(){
+		plant[16].style.display = 'block';
+		button[16].style.display = 'none';
+	}
+	button[17].onclick = function(){
+		plant[17].style.display = 'block';
+		button[17].style.display = 'none';
+	}
+	button[18].onclick = function(){
+		plant[18].style.display = 'block';
+		button[18].style.display = 'none';
+	}
+	button[19].onclick = function(){
+		plant[19].style.display = 'block';
+		button[19].style.display = 'none';
+	}
+	button[20].onclick = function(){
+		plant[20].style.display = 'block';
+		button[20].style.display = 'none';
+	}
+	button[21].onclick = function(){
+		plant[21].style.display = 'block';
+		button[21].style.display = 'none';
+	}
+	button[22].onclick = function(){
+		plant[22].style.display = 'block';
+		button[22].style.display = 'none';
+	}
+	button[23].onclick = function(){
+		plant[23].style.display = 'block';
+		button[23].style.display = 'none';
+	}
+	button[24].onclick = function(){
+		plant[24].style.display = 'block';
+		button[24].style.display = 'none';
+	}
+	button[25].onclick = function(){
+		plant[25].style.display = 'block';
+		button[25].style.display = 'none';
+	}
+	button[26].onclick = function(){
+		plant[26].style.display = 'block';
+		button[26].style.display = 'none';
+	}
+	button[27].onclick = function(){
+		plant[27].style.display = 'block';
+		button[27].style.display = 'none';
+	}
+	button[28].onclick = function(){
+		plant[28].style.display = 'block';
+		button[28].style.display = 'none';
+	}
+	button[29].onclick = function(){
+		plant[29].style.display = 'block';
+		button[29].style.display = 'none';
+	}
+
+</script>
+</body>
+</html>
